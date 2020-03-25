@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter as Router} from "react-router-dom";
 
+import { createBrowserHistory } from 'history';
 
-// Main Index File,
-//
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
 
 ReactDOM.render(
-    <App />,
+    <Router basename={process.env.PUBLIC_URL}>
+        <App />
+    </Router>,
     document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

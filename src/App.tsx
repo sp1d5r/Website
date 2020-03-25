@@ -12,16 +12,11 @@ import NotesRouter from "./components/routers/Notes";
 import ProjectsRouter from "./components/routers/Projects";
 import PageNotFound from "./components/single_page_elements/PageNotFound";
 
-import { createBrowserHistory } from 'history';
-
-export const history = createBrowserHistory({
-    basename: process.env.PUBLIC_URL
-});
 
 class App extends Component {
     render() {
         return (
-            <Router basename={process.env.PUBLIC_URL}>
+            <div>
                 <Header/>
                 <Switch>
                     <Route path ="/" exact component={Home}/>
@@ -29,7 +24,7 @@ class App extends Component {
                     <Route path ="/projects"  component={ProjectsRouter}/>
                     <Route path ="*" component={PageNotFound}/>
                 </Switch>
-            </Router>
+            </div>
         );
     }
 }
