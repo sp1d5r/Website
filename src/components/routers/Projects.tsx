@@ -11,12 +11,10 @@ import PageNotFound from "../single_page_elements/PageNotFound";
 class ProjectsRouter extends Component {
     render() {
         return (
-            <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route path="/projects" exact component={ProjectsHome}/>
                     <Route path={"*"} component={PageNotFound}/>
                 </Switch>
-            </Router>
         );
     }
 }

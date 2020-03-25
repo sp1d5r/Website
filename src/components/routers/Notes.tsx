@@ -15,7 +15,6 @@ import {
 class NotesRouter extends Component {
     render() {
         return (
-            <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route path ="/notes" exact component={NotesHome}/>
 
@@ -38,7 +37,6 @@ class NotesRouter extends Component {
 
                     <Route path={"*"} component={PageNotFound}/>
                 </Switch>
-            </Router>
         );
     }
 }
