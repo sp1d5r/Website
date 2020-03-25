@@ -15,7 +15,7 @@ import {
 class NotesRouter extends Component {
     render() {
         return (
-            <Router basename={'/notes'}>
+            <Router>
                 <Switch>
                     <Route path ="${process.env.PUBLIC_URL}/notes" exact component={NotesHome}/>
 

@@ -10,7 +10,7 @@ import {
 class ProjectsRouter extends Component {
     render() {
         return (
-            <Router basename={'/projects'}>
+            <Router>
                 <Switch>
                     <Route path ="${process.env.PUBLIC_URL}/projects" component={ProjectsHome}/>
                 </Switch>
