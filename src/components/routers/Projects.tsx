@@ -7,12 +7,14 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import PageNotFound from "../single_page_elements/PageNotFound";
 class ProjectsRouter extends Component {
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
-                    <Route path="/projects" component={ProjectsHome}/>
+                    <Route path="/projects" exact component={ProjectsHome}/>
+                    <Route path={"*"} component={PageNotFound}/>
                 </Switch>
             </Router>
         );

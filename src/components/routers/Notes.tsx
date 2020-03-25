@@ -15,7 +15,7 @@ import {
 class NotesRouter extends Component {
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route path ="/notes" exact component={NotesHome}/>
 
@@ -35,8 +35,6 @@ class NotesRouter extends Component {
                     <Route path ="/notes/arabic/comparing-things" exact component={arabic_contents}/>
                     <Route path ="/notes/arabic/education-and-business" exact component={arabic_contents}/>
                     <Route path ="/notes/arabic/the-future" exact component={arabic_contents}/>
-
-
 
                     <Route path={"*"} component={PageNotFound}/>
                 </Switch>
