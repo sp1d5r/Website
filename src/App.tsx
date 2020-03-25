@@ -15,7 +15,7 @@ class App extends Component {
     render() {
         return (
 
-            <Router basename={'/public_html'}>
+            <Router basename={'/~aa1719'}>
                 <Header/>
                 <Switch>
                     <Route path ="${process.env.PUBLIC_URL}/" exact component={Home}/>
