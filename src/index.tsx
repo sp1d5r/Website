@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, HashRouter} from "react-router-dom";
 
 import { createBrowserHistory } from 'history';
 
@@ -12,9 +12,9 @@ export const history = createBrowserHistory({
 });
 
 ReactDOM.render(
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <App />
-    </Router>,
+    </HashRouter>,
     document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
