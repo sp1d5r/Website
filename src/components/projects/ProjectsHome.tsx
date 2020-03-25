@@ -35,7 +35,7 @@ class ProjectsHome extends React.Component {
                             The breakdown of my first commercial application which gained 100+ downloads without any
                             marketing
                         </Card.Text>
-                            <Link to={"${process.env.PUBLIC_URL}/projects/mechanics-app"} className={"btn btn-primary mx-2"}>Take me there</Link>
+                            <Link to={"#/projects/mechanics-app"} className={"btn btn-primary mx-2"}>Take me there</Link>
                             <a href="https://github.com/sp1d5r/Mechanics-App" className="btn btn-primary">Source
                                 Code</a>
                         </Card.Body>
@@ -59,7 +59,7 @@ class ProjectsHome extends React.Component {
                                         <div className="alert alert-secondary">Discontinued</div>
                                         <p className="card-text"><small className="text-muted">May 13, 2018</small></p>
                                         <div className="card-footer bg-transparent">
-                                            <a href="projects/cobweb"
+                                            <a href="#/projects/cobweb"
                                                className="btn btn-primary btn-block"> Cobweb </a>
                                             <a href="https://github.com/sp1d5r/CobWeb"
                                                className="btn btn-primary btn-block"> Link to Source code</a>
@@ -74,7 +74,7 @@ class ProjectsHome extends React.Component {
                                         <div className="alert alert-secondary">Completed</div>
                                         <p className="card-text"><small className="text-muted">Jul 8, 2018</small></p>
                                         <div className="card-footer bg-transparent">
-                                            <a href="projects/general-blockchain"
+                                            <a href="#/projects/general-blockchain"
                                                className="btn btn-primary btn-block"> General Blockchain </a>
                                             <a href="https://github.com/sp1d5r/General-BlockChain"
                                                className="btn btn-primary btn-block"> Link to Source code</a>
@@ -89,7 +89,7 @@ class ProjectsHome extends React.Component {
                                         <div className="alert alert-secondary">Progressive</div>
                                         <p className="card-text"><small className="text-muted">Jun 2, 2018</small></p>
                                         <div className="card-footer bg-transparent">
-                                            <a href="projects/quantum-computing"
+                                            <a href="#/projects/quantum-computing"
                                                className="btn btn-primary btn-block"> Quantum Computing </a>
                                             <a href="https://github.com/sp1d5r/Quantum-Computing-Python"
                                                className="btn btn-primary btn-block"> Link to Source code</a>
@@ -109,7 +109,7 @@ class ProjectsHome extends React.Component {
                                             <p className="card-text"><small className="text-muted">May 28, 2018</small>
                                             </p>
                                             <div className="card-footer bg-transparent">
-                                                <a href="projects/pearson-pdf-maker"
+                                                <a href="#/projects/pearson-pdf-maker"
                                                    className="btn btn-primary btn-block"> PDF Maker </a>
                                                 <a href="https://github.com/sp1d5r/Pearsons-Active-Learn-PDF-Screenshoter"
                                                    className="btn btn-primary btn-block"> Link to Source code</a>
@@ -126,7 +126,7 @@ class ProjectsHome extends React.Component {
                                             <p className="card-text"><small className="text-muted"> Jan 20, 2020</small>
                                             </p>
                                             <div className="card-footer bg-transparent">
-                                                <a href="projects/computer-system-projects"
+                                                <a href="#/projects/computer-system-projects"
                                                    className="btn btn-primary btn-block"> Computer System Projects</a>
                                                 <a href="https://github.com/sp1d5r/Computer-Systems-Projects"
                                                    className="btn btn-primary btn-block"> Link to Source code</a>
@@ -143,7 +143,7 @@ class ProjectsHome extends React.Component {
                                             <p className="card-text"><small className="text-muted">May 8, 2018</small>
                                             </p>
                                             <div className="card-footer bg-transparent">
-                                                <a href="projects/microblocks"
+                                                <a href="#/projects/microblocks"
                                                    className="btn btn-primary btn-block"> MicroBlocks </a>
                                                 <a href="https://github.com/sp1d5r/MicroBlocks"
                                                    className="btn btn-primary btn-block"> Link to Source code</a>
