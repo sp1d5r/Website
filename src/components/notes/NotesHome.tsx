@@ -137,7 +137,7 @@ class NotesHome extends React.Component {
                                 <div className="alert alert-secondary">Under Construction</div>
                                 <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
                                 <div className="card-footer bg-transparent">
-                                    <Link to={"Notes/Arabic"}/>
+                                    <Link to={"${process.env.PUBLIC_URL}/notes/italian"}/>
                                     <a href="notes/italian/italian-contents" className="btn btn-primary btn-block"> Link
                                         To Italian Section </a>
                                 </div>

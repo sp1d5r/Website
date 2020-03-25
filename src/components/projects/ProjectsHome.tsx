@@ -35,7 +35,7 @@ class ProjectsHome extends React.Component {
                             The breakdown of my first commercial application which gained 100+ downloads without any
                             marketing
                         </Card.Text>
-                            <Link to={"projects/mechanics-app"} className={"btn btn-primary mx-2"}>Take me there</Link>
+                            <Link to={"${process.env.PUBLIC_URL}/projects/mechanics-app"} className={"btn btn-primary mx-2"}>Take me there</Link>
                             <a href="https://github.com/sp1d5r/Mechanics-App" className="btn btn-primary">Source
                                 Code</a>
                         </Card.Body>

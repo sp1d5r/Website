@@ -12,8 +12,7 @@ class ProjectsRouter extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route path ="/projects" component={ProjectsHome}/>
-                    <Route path ="/Notes/Arabic" component={NotesHome}/>
+                    <Route path ="${process.env.PUBLIC_URL}/projects" component={ProjectsHome}/>
                 </Switch>
             </Router>
         );

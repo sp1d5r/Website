@@ -15,13 +15,13 @@ class App extends Component {
     render() {
         return (
 
-            <Router>
+            <Router basename={'/public_html'}>
                 <Header/>
                 <Switch>
-                    <Route path ="/" exact component={Home}/>
-                    <Route path ="/notes"  component={NotesRouter}/>
-                    <Route path ="/projects"  component={ProjectsRouter}/>
-                    <Route path ="*" component={PageNotFound}/>
+                    <Route path ="${process.env.PUBLIC_URL}/" exact component={Home}/>
+                    <Route path ="${process.env.PUBLIC_URL}/notes"  component={NotesRouter}/>
+                    <Route path ="${process.env.PUBLIC_URL}/projects"  component={ProjectsRouter}/>
+                    <Route path ="${process.env.PUBLIC_URL}/*" component={PageNotFound}/>
                 </Switch>
             </Router>
         );
