@@ -29,23 +29,23 @@ class Header extends React.Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <div>
-                            <Navbar.Brand href="/">Elijah Ahmad</Navbar.Brand>
+                            <Navbar.Brand href="./">Elijah Ahmad</Navbar.Brand>
                         </div>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         </button>
                         <Nav className="nav-fill w-100">
                             <NavItem className="w-25">
-                                <Nav.Link href="notes">Notes</Nav.Link>
+                                <Nav.Link href="./notes">Notes</Nav.Link>
                             </NavItem>
                             <NavItem  className="w-25">
-                                <Nav.Link href="projects">Projects</Nav.Link>
+                                <Nav.Link href="./projects">Projects</Nav.Link>
                             </NavItem>
                             <NavItem className="w-25">
-                                <Nav.Link href="tutoring">Tutoring </Nav.Link>
+                                <Nav.Link href="./tutoring">Tutoring </Nav.Link>
                             </NavItem>
                             <NavItem className="w-25">
-                                <Nav.Link href="contact">Contact</Nav.Link>
+                                <Nav.Link href="./contact">Contact</Nav.Link>
                              </NavItem>
                         </Nav>
                     </Navbar.Collapse>

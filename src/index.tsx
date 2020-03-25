@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import './index.css';
-import Home from './components/single_page_elements/Home';
 import App from './App';
-import Header from './components/single_page_elements/Header'
 import * as serviceWorker from './serviceWorker';
+
+import { createBrowserHistory } from 'history';
+
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+});
 
 // Main Index File,
 //

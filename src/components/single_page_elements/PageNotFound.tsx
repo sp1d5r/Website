@@ -31,8 +31,8 @@ class PageNotFound extends Component {
                                 If you think you have found an error in functionality, please contact me to get
                                 this error fixed as soon as possible.
                             </Card.Text>
-                            <Card.Link href="${process.env.PUBLIC_URL}/">Home</Card.Link>
-                            <Card.Link href="${process.env.PUBLIC_URL}/contact">Contact</Card.Link>
+                            <Card.Link href="/">Home</Card.Link>
+                            <Card.Link href="./contact">Contact</Card.Link>
                         </Card.Body>
                     </Card>
                 </CardDeck>

@@ -11,17 +11,17 @@ import "./App.css";
 import NotesRouter from "./components/routers/Notes";
 import ProjectsRouter from "./components/routers/Projects";
 import PageNotFound from "./components/single_page_elements/PageNotFound";
+
 class App extends Component {
     render() {
         return (
-
             <Router>
                 <Header/>
                 <Switch>
-                    <Route path ="${process.env.PUBLIC_URL}/" exact component={Home}/>
-                    <Route path ="${process.env.PUBLIC_URL}/notes"  component={NotesRouter}/>
-                    <Route path ="${process.env.PUBLIC_URL}/projects"  component={ProjectsRouter}/>
-                    <Route path ="${process.env.PUBLIC_URL}/*" component={PageNotFound}/>
+                    <Route path ="/" exact component={Home}/>
+                    <Route path ="/notes"  component={NotesRouter}/>
+                    <Route path ="/projects"  component={ProjectsRouter}/>
+                    <Route path ="/*" component={PageNotFound}/>
                 </Switch>
             </Router>
         );
