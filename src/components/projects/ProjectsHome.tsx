@@ -15,8 +15,7 @@ class ProjectsHome extends React.Component {
                     <div className="card-body bg-white text-center text-dark mb-3 navgrad">
                         <h3 className="card-title h3 my-4"><strong>Personal Projects</strong></h3>
                         <p className="card-text py-0">a collection of my personal projects</p>
-                        <Link className="btn btn-primary" href="https://github.com/sp1d5r" role="button"
-                              to={"https://github.com/sp1d5r"}>Github</Link>
+                        <a className="btn btn-primary" href="https://github.com/sp1d5r" role="button">Github</a>
                     </div>
                 </Jumbotron>
 
@@ -35,7 +34,7 @@ class ProjectsHome extends React.Component {
                             The breakdown of my first commercial application which gained 100+ downloads without any
                             marketing
                         </Card.Text>
-                            <Link to={"#/projects/mechanics-app"} className={"btn btn-primary mx-2"}>Take me there</Link>
+                            <a href="/#/projects/mechanics-app" className={"btn btn-primary mx-2"}>Take me there</a>
                             <a href="https://github.com/sp1d5r/Mechanics-App" className="btn btn-primary">Source
                                 Code</a>
                         </Card.Body>

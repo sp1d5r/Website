@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf4dd6b-aa27-4d40-85f0-6d8f31dc8d70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.335f1de5865cdf3f678238e46922e7d6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.39a9c304.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.39a9c304.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/notes/arabic/alphabet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/arabic/alphabet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/notes/arabic/arabic_contents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/arabic/arabic_contents.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectsHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectsHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routers/Notes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routers/Notes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,8 @@
       <workItem from="1582320017299" duration="944000" />
       <workItem from="1582560342561" duration="5639000" />
       <workItem from="1583349832959" duration="8417000" />
-      <workItem from="1585071453227" duration="19836000" />
+      <workItem from="1585071453227" duration="20649000" />
+      <workItem from="1585745322188" duration="3492000" />
     </task>
     <servers />
   </component>
@@ -110,25 +102,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1585154336517">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1585749018332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585154336517" />
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585749018332" />
     <state width="1659" height="276" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583500529141" />
-    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1585154336514">
+    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1585749018331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585154336514" />
+    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585749018331" />
     <state width="1659" height="276" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583500529139" />
-    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1585154336513">
+    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1585749018330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585154336513" />
+    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585749018330" />
     <state width="1659" height="276" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583500529138" />
-    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1585154336515">
+    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1585749018332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585154336515" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585749018332" />
     <state width="1659" height="276" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583500529140" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585153395613">
       <screen x="0" y="0" width="1440" height="900" />

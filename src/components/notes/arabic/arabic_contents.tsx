@@ -14,9 +14,9 @@ class arabic_contents extends Component {
                 <br/>
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item"><a href="#/notes">Notes</a></li>
-                        <li className="breadcrumb-item"><a href="#">Arabic</a></li>
+                        <li className="breadcrumb-item"><a href="/#/">Home</a></li>
+                        <li className="breadcrumb-item"><a href="/#/notes/">Notes</a></li>
+                        <li className="breadcrumb-item"><a href="/#/notes/arabic/arabic-contents">Arabic</a></li>
                         <li className="breadcrumb-item active" aria-current="page">Content</li>
                     </ol>
                 </nav>
@@ -25,23 +25,23 @@ class arabic_contents extends Component {
                     <h2>Contents Page</h2>
                     <p>These sets of notes will cover the following topics:</p>
                     <ol>
-                        <li><a href="/alphabet.html">The Alphabet</a></li>
-                        <li><a href="/greeting-and-intro.html">Greetings and Introductions</a></li>
-                        <li><a href="/family.html">Family</a></li>
-                        <li><a href="/jobs.html">Jobs</a></li>
-                        <li><a href="/describing-things.html">Describing Things</a></li>
-                        <li><a href="/locating-things.html">Location of Things</a></li>
-                        <li><a href="/places.html">Places</a></li>
-                        <li><a href="/countries-and-nationality.html">Countries and Nationality</a></li>
-                        <li><a href="/counting.html">Counting</a></li>
-                        <li><a href="/plural-and-dual.html">Plural and Dual</a></li>
-                        <li><a href="/colors.html">Colors</a></li>
-                        <li><a href="/eating-and-drinking.html">Eating and Drinking</a></li>
-                        <li><a href="/past-verbs-and-yesterday.html">Past Verbs and Yesterday</a></li>
-                        <li><a href="/daily-routines.html">Daily Routines</a></li>
-                        <li><a href="/comparing-things.html">Comparing Things</a></li>
-                        <li><a href="/education-and-business.html">Education and Business</a></li>
-                        <li><a href="/the-future.html">The Future</a></li>
+                        <li><a href="/#/notes/arabic/alphabet">The Alphabet</a></li>
+                        <li><a href="/#/notes/arabic/greeting-and-intro">Greetings and Introductions</a></li>
+                        <li><a href="/#/notes/arabic/family">Family</a></li>
+                        <li><a href="/#/notes/arabic/jobs">Jobs</a></li>
+                        <li><a href="/#/notes/arabic/describing-things">Describing Things</a></li>
+                        <li><a href="/#/notes/arabic/locating-things">Location of Things</a></li>
+                        <li><a href="/#/notes/arabic/places">Places</a></li>
+                        <li><a href="/#/notes/arabic/countries-and-nationality">Countries and Nationality</a></li>
+                        <li><a href="/#/notes/arabic/counting">Counting</a></li>
+                        <li><a href="/#/notes/arabic/plural-and-dual">Plural and Dual</a></li>
+                        <li><a href="/#/notes/arabic/colors">Colors</a></li>
+                        <li><a href="/#/notes/arabic/eating-and-drinking">Eating and Drinking</a></li>
+                        <li><a href="/#/notes/arabic/past-verbs-and-yesterday">Past Verbs and Yesterday</a></li>
+                        <li><a href="/#/notes/arabic/daily-routines">Daily Routines</a></li>
+                        <li><a href="/#/notes/arabic/comparing-things">Comparing Things</a></li>
+                        <li><a href="/#/notes/arabic/education-and-business">Education and Business</a></li>
+                        <li><a href="/#/notes/arabic/the-future">The Future</a></li>
                     </ol>
 
                     <h3>Credit</h3>
