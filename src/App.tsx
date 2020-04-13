@@ -14,6 +14,8 @@ import PageNotFound from "./components/single_page_elements/PageNotFound";
 import arabic_contents from "./components/notes/arabic/arabic_contents";
 import Cobweb from "./components/projects/Cobweb";
 import MechanicsApp from "./components/projects/MechanicsApp";
+import NotesHome from "./components/notes/NotesHome";
+import ProjectsHome from "./components/projects/ProjectsHome";
 
 
 class App extends Component {
@@ -24,7 +26,7 @@ class App extends Component {
                 <Switch>
                     <Route path ="/" exact component={Home}/>
 
-                    <Route path ="/notes" exact component={NotesRouter}/>
+                    <Route path ="/notes" exact component={NotesHome}/>
 
                     <Route path="/notes/arabic/arabic-contents" exact component={arabic_contents}/>
                     <Route path ="/arabic/arabic-contents" exact component={arabic_contents}/>
@@ -44,7 +46,7 @@ class App extends Component {
                     <Route path ="/education-and-business" exact component={arabic_contents}/>
                     <Route path ="/the-future" exact component={arabic_contents}/>
 
-                    <Route path ="/projects" exact component={ProjectsRouter}/>
+                    <Route path ="/projects" exact component={ProjectsHome}/>
 s
                     <Route path ="/projects/cobweb" exact component={Cobweb}/>
                     <Route path ="/projects/mechanics-app" exact component={MechanicsApp}/>
