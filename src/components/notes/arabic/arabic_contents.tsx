@@ -25,23 +25,23 @@ class arabic_contents extends Component {
                     <h2>Contents Page</h2>
                     <p>These sets of notes will cover the following topics:</p>
                     <ol>
-                        <li><a href="/#/notes/arabic/alphabet">The Alphabet</a></li>
-                        <li><a href="/#/notes/arabic/greeting-and-intro">Greetings and Introductions</a></li>
-                        <li><a href="/#/notes/arabic/family">Family</a></li>
-                        <li><a href="/#/notes/arabic/jobs">Jobs</a></li>
-                        <li><a href="/#/notes/arabic/describing-things">Describing Things</a></li>
-                        <li><a href="/#/notes/arabic/locating-things">Location of Things</a></li>
-                        <li><a href="/#/notes/arabic/places">Places</a></li>
-                        <li><a href="/#/notes/arabic/countries-and-nationality">Countries and Nationality</a></li>
-                        <li><a href="/#/notes/arabic/counting">Counting</a></li>
-                        <li><a href="/#/notes/arabic/plural-and-dual">Plural and Dual</a></li>
-                        <li><a href="/#/notes/arabic/colors">Colors</a></li>
-                        <li><a href="/#/notes/arabic/eating-and-drinking">Eating and Drinking</a></li>
-                        <li><a href="/#/notes/arabic/past-verbs-and-yesterday">Past Verbs and Yesterday</a></li>
-                        <li><a href="/#/notes/arabic/daily-routines">Daily Routines</a></li>
-                        <li><a href="/#/notes/arabic/comparing-things">Comparing Things</a></li>
-                        <li><a href="/#/notes/arabic/education-and-business">Education and Business</a></li>
-                        <li><a href="/#/notes/arabic/the-future">The Future</a></li>
+                        <li><a href="#/projects/mechanics-app">The Alphabet</a></li>
+                        <li><a href="#/notes/arabic/greeting-and-intro">Greetings and Introductions</a></li>
+                        <li><a href="#/notes/arabic/family">Family</a></li>
+                        <li><a href="#/notes/arabic/jobs">Jobs</a></li>
+                        <li><a href="#/notes/arabic/describing-things">Describing Things</a></li>
+                        <li><a href="#/notes/arabic/locating-things">Location of Things</a></li>
+                        <li><a href="#/notes/arabic/places">Places</a></li>
+                        <li><a href="#/notes/arabic/countries-and-nationality">Countries and Nationality</a></li>
+                        <li><a href="#/notes/arabic/counting">Counting</a></li>
+                        <li><a href="#/notes/arabic/plural-and-dual">Plural and Dual</a></li>
+                        <li><a href="#/notes/arabic/colors">Colors</a></li>
+                        <li><a href="#/notes/arabic/eating-and-drinking">Eating and Drinking</a></li>
+                        <li><a href="#/notes/arabic/past-verbs-and-yesterday">Past Verbs and Yesterday</a></li>
+                        <li><a href="#/notes/arabic/daily-routines">Daily Routines</a></li>
+                        <li><a href="#/notes/arabic/comparing-things">Comparing Things</a></li>
+                        <li><a href="#/notes/arabic/education-and-business">Education and Business</a></li>
+                        <li><a href="#/notes/arabic/the-future">The Future</a></li>
                     </ol>
 
                     <h3>Credit</h3>

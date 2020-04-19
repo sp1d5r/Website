@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/single_page_elements/Header";
 import Home from "./components/single_page_elements/Home";
+import 'materialize-css';
 import {
     BrowserRouter as Router,
     Switch,
@@ -16,6 +17,7 @@ import Cobweb from "./components/projects/Cobweb";
 import MechanicsApp from "./components/projects/MechanicsApp";
 import NotesHome from "./components/notes/NotesHome";
 import ProjectsHome from "./components/projects/ProjectsHome";
+import Contact from "./components/contact/Contact";
 
 
 class App extends Component {
@@ -50,6 +52,8 @@ class App extends Component {
 s
                     <Route path ="/projects/cobweb" exact component={Cobweb}/>
                     <Route path ="/projects/mechanics-app" exact component={MechanicsApp}/>
+
+                    <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>
                 </Switch>
             </div>
