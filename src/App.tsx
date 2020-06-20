@@ -20,6 +20,7 @@ import ProjectsHome from "./components/projects/ProjectsHome";
 import Contact from "./components/contact/Contact";
 import greeting_and_intro from "./components/notes/arabic/greeting_and_intro";
 import Footer from "./components/single_page_elements/Footer";
+import GeneralBlockchain from "./components/projects/GeneralBlockchain";
 
 class App extends Component {
     render() {
@@ -53,6 +54,8 @@ class App extends Component {
 s
                     <Route path ="/projects/cobweb" exact component={Cobweb}/>
                     <Route path ="/projects/mechanics-app" exact component={MechanicsApp}/>
+                    <Route path ="/projects/general-blockchain" exact component={GeneralBlockchain}/>
+
 
                     <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>

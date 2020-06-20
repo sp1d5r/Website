@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf4dd6b-aa27-4d40-85f0-6d8f31dc8d70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.4c3a1de4d286c312f57516a61608df4e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/MechanicsApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/MechanicsApp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
       <workItem from="1588684872612" duration="2000" />
       <workItem from="1589614768836" duration="377000" />
       <workItem from="1589659245206" duration="1132000" />
-      <workItem from="1592646378115" duration="10677000" />
+      <workItem from="1592646378115" duration="12340000" />
     </task>
     <servers />
   </component>

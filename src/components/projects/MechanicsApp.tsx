@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import {Link} from 'react-router-dom';
 class MechanicsApp extends React.Component {
     render() {
         return(
@@ -27,22 +27,22 @@ class MechanicsApp extends React.Component {
                         Content
                     </h2>
                     <ul>
-                        <li className="has-line-data" data-line-start="5" data-line-end="6"><a
-                            href="/#/projects/mechanics-app#history">History</a></li>
-                        <li className="has-line-data" data-line-start="6" data-line-end="7"><a
-                            href="/#/projects/mechanics-app#target-demographic">Target Demographic</a></li>
-                        <li className="has-line-data" data-line-start="7" data-line-end="8"><a
-                            href="/#/projects/mechanics-app#analytics">Analytics</a></li>
-                        <li className="has-line-data" data-line-start="8" data-line-end="9"><a href="/#/projects/mechanics-app#app-structure">App
-                            Structure</a></li>
-                        <li className="has-line-data" data-line-start="9" data-line-end="10"><a
-                            href="/#/projects/mechanics-app#preview">Preview</a></li>
-                        <li className="has-line-data" data-line-start="10" data-line-end="11"><a
-                            href="/#/projects/mechanics-app#adjusting-ad-mob">Adjusting Ad Mob</a></li>
-                        <li className="has-line-data" data-line-start="11" data-line-end="12"><a href="/#/projects/mechanics-app#the-future">The
-                            Future</a></li>
-                        <li className="has-line-data" data-line-start="12" data-line-end="14"><a href="/#/projects/mechanics-app#social-media">Social
-                            Media</a></li>
+                        <li className="has-line-data" data-line-start="5" data-line-end="6"><Link
+                            to="#history">History</Link></li>
+                        <li className="has-line-data" data-line-start="6" data-line-end="7"><Link
+                            to="#target-demographic">Target Demographic</Link></li>
+                        <li className="has-line-data" data-line-start="7" data-line-end="8"><Link
+                            to="#analytics">Analytics</Link></li>
+                        <li className="has-line-data" data-line-start="8" data-line-end="9"><Link to="#app-structure">App
+                            Structure</Link></li>
+                        <li className="has-line-data" data-line-start="9" data-line-end="10"><Link
+                            to="#preview">Preview</Link></li>
+                        <li className="has-line-data" data-line-start="10" data-line-end="11"><Link
+                            to="#adjusting-ad-mob">Adjusting Ad Mob</Link></li>
+                        <li className="has-line-data" data-line-start="11" data-line-end="12"><Link to="#the-future">The
+                            Future</Link></li>
+                        <li className="has-line-data" data-line-start="12" data-line-end="14"><Link to="#social-media">Social
+                            Media</Link></li>
                     </ul>
 
                     <h2><a id="history"></a>History</h2>
