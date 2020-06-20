@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf4dd6b-aa27-4d40-85f0-6d8f31dc8d70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/notes/arabic/arabic_contents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/arabic/arabic_contents.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.4c3a1de4d286c312f57516a61608df4e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notes/NotesHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom-navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom-navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/instagramPhoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1588684872612" duration="2000" />
       <workItem from="1589614768836" duration="377000" />
       <workItem from="1589659245206" duration="1132000" />
-      <workItem from="1592646378115" duration="7538000" />
+      <workItem from="1592646378115" duration="10677000" />
     </task>
     <servers />
   </component>
@@ -125,26 +126,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588366283038" />
-    <state width="829" height="275" key="GridCell.Tab.0.bottom" timestamp="1592653788784">
+    <state width="829" height="275" key="GridCell.Tab.0.bottom" timestamp="1592663533001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585833408312" />
-    <state width="829" height="275" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592653788784" />
-    <state width="829" height="275" key="GridCell.Tab.0.center" timestamp="1592653788783">
+    <state width="829" height="275" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592663533001" />
+    <state width="829" height="275" key="GridCell.Tab.0.center" timestamp="1592663533000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585833408311" />
-    <state width="829" height="275" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592653788783" />
-    <state width="829" height="275" key="GridCell.Tab.0.left" timestamp="1592653788783">
+    <state width="829" height="275" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592663533000" />
+    <state width="829" height="275" key="GridCell.Tab.0.left" timestamp="1592663532999">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585833408310" />
-    <state width="829" height="275" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592653788783" />
-    <state width="829" height="275" key="GridCell.Tab.0.right" timestamp="1592653788784">
+    <state width="829" height="275" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592663532999" />
+    <state width="829" height="275" key="GridCell.Tab.0.right" timestamp="1592663533001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585833408312" />
-    <state width="829" height="275" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592653788784" />
+    <state width="829" height="275" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592663533001" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585153395613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

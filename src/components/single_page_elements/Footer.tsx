@@ -37,7 +37,7 @@ class Footer extends React.Component {
         return (
                 <footer style={footerStyle} className={"footer sticky-bottom footer"}>
                     <div className="copyright">
-                        <p style={paraStyle}>Copyright 2020 - Almaz Ahmad</p>
+                        <p style={paraStyle}>Copyright 2020 - Elijah Ahmad</p>
                     </div>
                     <div className="social" >
                         <a href="#/contact" className={"support footerLinks"}>Contact Me</a>

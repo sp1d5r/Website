@@ -82,38 +82,48 @@ class Home extends React.Component {
                     <h2 className={"bg-white text-dark text-center p-2"}><u>My Highlight Real</u></h2>
                     <br/>
                     <div className={"card-deck bg-transparent"} >
-                        <div className={"card justify-content-center"} style={{backgroundColor:"#f0f0f0"}}>
-                            <div className={"card-group"}>
-                                <Row >
+                        <div className={"card justify-content-center bg-transparent"} style={{border:"none"}}>
+                            <div className={"card-group justify-content-center"} >
+                                <Row className={"justify-content-center "} >
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image   src={require("../../img/mech_calculator.jpg")} thumbnail />
-                                            <p style={{textAlign:"center"}}>Mechanics Calculator</p>
+                                            <p style={{textAlign:"center", height:"45px"}}>Mechanics Calculator</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/stats_calculator.jpg")} thumbnail />
-                                            <p style={{textAlign:"center"}}> Calculator</p>
+                                            <p style={{textAlign:"center", height:"45px"}}> Calculator </p>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className={"justify-content-center"}>
+                                    <Col xs={6} md={4}>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image src={require("../../img/ice_runner.jpg")} thumbnail />
+                                            <p style={{textAlign:"center", height:"45px"}}>Ice Runner</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} md={4}>
-                                        <Image src={require("../../img/ice_runner.jpg")} thumbnail />
-                                        <p style={{textAlign:"center"}}>Ice Runner</p>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image src={require("../../img/impossible_cube.jpg")} thumbnail />
+                                            <p style={{textAlign:"center", height:"45px"}}>Impossible Cube</p>
+                                        </div>
                                     </Col>
                                 </Row>
-                                <Row>
+                                <Row className={"justify-content-center"}>
                                     <Col xs={6} md={4}>
-                                        <Image src={require("../../img/impossible_cube.jpg")} thumbnail />
-                                        <p style={{textAlign:"center"}}>Impossible Cube</p>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image src={require("../../img/faded.jpg")} thumbnail />
+                                            <p style={{textAlign:"center", height:"45px"}}>Faded</p>
+                                        </div>
                                     </Col>
                                     <Col xs={6} md={4}>
-                                        <Image src={require("../../img/faded.jpg")} thumbnail />
-                                        <p style={{textAlign:"center"}}>Faded</p>
-                                    </Col>
-                                    <Col xs={6} md={4}>
-                                        <Image src={require("../../img/tiny_universe.jpg")} thumbnail />
-                                        <p style={{textAlign:"center"}}> Tiny Universe</p>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image src={require("../../img/tiny_universe.jpg")} thumbnail />
+                                            <p style={{textAlign:"center", height:"45px"}}> Tiny Universe</p>
+                                        </div>
                                     </Col>
                                 </Row>
                             </div>
@@ -139,6 +149,17 @@ class Home extends React.Component {
                                         <li>Tiny Universe - My first platformer with graphics and audio designed</li>
                                     </ul>
 
+                                    <p>
+                                        These apps were built on xcode, using swift and objective-c. The designs went
+                                        from clunky to minimalistic. I also began exploring colour pallets and using
+                                        simple shapes such as squares, circles and triangles.
+                                    </p>
+
+                                    <p>
+                                        I also monetized these app, I used AdMob and HeyZap (now fibre) to place ads on
+                                        my games. I made a total of £45 from publishing these apps. It wasn't a lot but
+                                        considerably good due to the fact I had no marketing.
+                                    </p>
                                     <p>
                                         I plan on returning to mobile app development soon, but I want to spend some time
                                         exploring different avenues before I come back to mobile development.

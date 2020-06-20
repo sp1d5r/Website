@@ -41,10 +41,10 @@ class NotesHome extends React.Component {
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <p>Il ne faut pas attendre d’être parfait pour commencer quelque chose de bien.</p>
-                                <footer className="blockquote-footer">
+                                <div className="blockquote-footer">
                                     L’Abbé Pierre,<cite title="Source Title">Don't
                                     wait to be perfect to start something good</cite>
-                                </footer>
+                                </div>
                             </blockquote>
                         </Card.Body>
                     </Card>
