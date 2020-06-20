@@ -23,10 +23,12 @@ class arabic_contents extends Component {
                 <h1>Arabic</h1>
                 <br/>
                     <h2>Contents Page</h2>
+                    <p> only * sections have been completed</p>
                     <p>These sets of notes will cover the following topics:</p>
+
                     <ol>
-                        <li><a href="#/projects/mechanics-app">The Alphabet</a></li>
-                        <li><a href="#/notes/arabic/greeting-and-intro">Greetings and Introductions</a></li>
+                        <li><a href="#/arabic/alphabet">The Alphabet</a></li>
+                        <li><a href="#/arabic/greeting-and-intro">Greetings and Introductions * </a></li>
                         <li><a href="#/notes/arabic/family">Family</a></li>
                         <li><a href="#/notes/arabic/jobs">Jobs</a></li>
                         <li><a href="#/notes/arabic/describing-things">Describing Things</a></li>

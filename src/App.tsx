@@ -18,7 +18,8 @@ import MechanicsApp from "./components/projects/MechanicsApp";
 import NotesHome from "./components/notes/NotesHome";
 import ProjectsHome from "./components/projects/ProjectsHome";
 import Contact from "./components/contact/Contact";
-
+import greeting_and_intro from "./components/notes/arabic/greeting_and_intro";
+import Footer from "./components/single_page_elements/Footer";
 
 class App extends Component {
     render() {
@@ -33,7 +34,7 @@ class App extends Component {
                     <Route path="/notes/arabic/arabic-contents" exact component={arabic_contents}/>
                     <Route path ="/arabic/arabic-contents" exact component={arabic_contents}/>
                     <Route path ="/alphabet" exact component={arabic_contents}/>
-                    <Route path ="/greeting-and-intro" exact component={arabic_contents}/>
+                    <Route path ="/arabic/greeting-and-intro" exact component={greeting_and_intro}/>
                     <Route path ="/jobs" exact component={arabic_contents}/>
                     <Route path ="/describing-things" exact component={arabic_contents}/>
                     <Route path ="/locating-things" exact component={arabic_contents}/>
@@ -56,6 +57,7 @@ s
                     <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>
                 </Switch>
+                <Footer/>
             </div>
         );
     }

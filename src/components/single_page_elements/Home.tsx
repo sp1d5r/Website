@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Jumbotron, Container, Image} from "react-bootstrap";
+import {Jumbotron, Container, Image, Row, Col} from "react-bootstrap";
 import "../../css/custom-navbar.css";
 import {Link} from "react-router-dom";
 
@@ -70,8 +70,8 @@ class Home extends React.Component {
                                         </p>
                                         <p>
                                             I <strong> love </strong> learning, in particular I enjoy learning languages
-                                            as of right now I'm spending all my time on Arabic but you can see my notes
-                                            under the "language section"
+                                            as of right now I'm spending all my time on Arabic, but i have a collection
+                                            of notes for other languages in the Notes page.
                                         </p>
                                     </p>
                                 </div>
@@ -79,6 +79,75 @@ class Home extends React.Component {
                     </div>
                 </Container>
                 <Container className={"p-2 text-dark"}>
+                    <h2 className={"bg-white text-dark text-center p-2"}><u>My Highlight Real</u></h2>
+                    <br/>
+                    <div className={"card-deck bg-transparent"} >
+                        <div className={"card justify-content-center"} style={{backgroundColor:"#f0f0f0"}}>
+                            <div className={"card-group"}>
+                                <Row >
+                                    <Col xs={6} md={4}>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image   src={require("../../img/mech_calculator.jpg")} thumbnail />
+                                            <p style={{textAlign:"center"}}>Mechanics Calculator</p>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <div style={{backgroundColor:"white"}}>
+                                            <Image src={require("../../img/stats_calculator.jpg")} thumbnail />
+                                            <p style={{textAlign:"center"}}> Calculator</p>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <Image src={require("../../img/ice_runner.jpg")} thumbnail />
+                                        <p style={{textAlign:"center"}}>Ice Runner</p>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col xs={6} md={4}>
+                                        <Image src={require("../../img/impossible_cube.jpg")} thumbnail />
+                                        <p style={{textAlign:"center"}}>Impossible Cube</p>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <Image src={require("../../img/faded.jpg")} thumbnail />
+                                        <p style={{textAlign:"center"}}>Faded</p>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <Image src={require("../../img/tiny_universe.jpg")} thumbnail />
+                                        <p style={{textAlign:"center"}}> Tiny Universe</p>
+                                    </Col>
+                                </Row>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">My Apps </h5>
+                                <p className="card-text">
+                                    <p> I have developed and published over 12 apps. These apps were made back in 2017-18
+                                        when I was 17. These apps massed thousands of downloads, 5,000 to be exact, but I
+                                        am very proud of them.
+                                    </p>
+
+                                    <p>
+                                        There were a variety of games and apps. Here are my favorites:
+                                    </p>
+                                    <ul>
+                                        <li>Mechanics App - helper for my A-Level Mechanics friends</li>
+                                        <li>Statistics App - helper for my A-Level Statistics friends</li>
+                                        <li>Ice Runner - The first game I made </li>
+                                        <li>Impossible Cube - the first minimalistic game I made</li>
+                                        <li>Faded - my personal favorite game (very addictive)</li>
+                                        <li>Tiny Universe - My first platformer with graphics and audio designed</li>
+                                    </ul>
+
+                                    <p>
+                                        I plan on returning to mobile app development soon, but I want to spend some time
+                                        exploring different avenues before I come back to mobile development.
+                                    </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
                     <div className={"card-deck"}>
                         <div className="card">
                             <div className="card-body">
@@ -125,3 +194,46 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+
+/*
+<div className={"card"} style={{width: "150px", height: "200px"}}>
+                                <Image className="center-image" src={require("../../img/mech_calculator.jpg")} style={{width: "130px", height: "130px"}}/>
+                                <p className={"card-footer"}>
+                                    Mech Calc
+                                </p>
+                            </div>
+                            <div className={"card justify-content-center"} style={{width: "150px", height: "200px"}}>
+                                <Image className="center-image" src={require("../../img/stats_calculator.jpg")} style={{width: "130px", height: "130px"}} />
+                                <p className={"card-footer"}>
+                                    Stats Calc
+                                </p>
+                            </div>
+                            <div className={"card justify-content-center"} style={{width: "150px", height: "200px"}}>
+                                <Image className="center-image bg-transparent" src={require("../../img/ice_runner.jpg")} style={{width: "130px", height: "130px"}}/>
+                                <p className={"card-footer"}>
+                                    Ice Runner
+                                </p>
+                            </div>
+                        </div>
+                            <br/>
+                            <div className={"card-group"}>
+                            <div className={"card justify-content-center"} style={{width: "150px", height: "200px"}} >
+                                <Image className="center-image" src={require("../../img/impossible_cube.jpg")} style={{width: "130px", height: "130px"}}/>
+                                <p className={"card-footer"}>
+                                    Impossible Cube
+                                </p>
+                            </div>
+                            <div className={"card justify-content-center"} style={{width: "150px", height: "200px"}} >
+                                <Image className="center-image" src={require("../../img/faded.jpg")} style={{width: "130px", height: "130px"}}/>
+                                <p className={"card-footer"}>
+                                    Faded
+                                </p>
+                            </div>
+                            <div className={"card d-flex justify-content-center"} style={{width: "150px", height: "200px"}} >
+                                <Image className="center-image" src={require("../../img/tiny_universe.jpg")} style={{width: "130px", height: "130px"}}/>
+                                <p className={"card-footer align-text-center"}>
+                                    Tiny Universe
+                                </p>
+                            </div>
+ */

@@ -26,7 +26,7 @@ class Header extends React.Component {
         return (
             <div>
                 <Navbar className="navbar-blur" collapseOnSelect expand="lg"  bg="light" variant="light" fixed = "top" >
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <div>
                             <Navbar.Brand href="#">Elijah Ahmad</Navbar.Brand>
