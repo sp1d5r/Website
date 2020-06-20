@@ -60,6 +60,12 @@ s
                     <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>
                 </Switch>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <Footer/>
             </div>
         );
