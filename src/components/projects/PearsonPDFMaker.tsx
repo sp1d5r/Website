@@ -63,6 +63,7 @@ class PearsonPDFMaker extends React.Component {
                 <code>{`src = 'some long website'`}</code>
                 <br/>
                 <br/>
+
                 <p>copy the <code>{`'some long website'`}</code> and open up the <code>{`PDF maker.rb `}</code> program. now fill out the details where it tells you too</p>
 
                 <pre>
