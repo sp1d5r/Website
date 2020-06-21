@@ -142,7 +142,7 @@ class ProjectsHome extends React.Component {
                                             <p className="card-text"><small className="text-muted">May 8, 2018</small>
                                             </p>
                                             <div className="card-footer bg-transparent">
-                                                <a href="#/projects/microblocks"
+                                                <a href="#/projects/"
                                                    className="btn btn-primary btn-block"> MicroBlocks </a>
                                                 <a href="https://github.com/sp1d5r/MicroBlocks"
                                                    className="btn btn-primary btn-block"> Link to Source code</a>
