@@ -21,6 +21,7 @@ import Contact from "./components/contact/Contact";
 import greeting_and_intro from "./components/notes/arabic/greeting_and_intro";
 import Footer from "./components/single_page_elements/Footer";
 import GeneralBlockchain from "./components/projects/GeneralBlockchain";
+import QuantumComputing from "./components/projects/QuantumComputing";
 
 class App extends Component {
     render() {
@@ -55,7 +56,7 @@ s
                     <Route path ="/projects/cobweb" exact component={Cobweb}/>
                     <Route path ="/projects/mechanics-app" exact component={MechanicsApp}/>
                     <Route path ="/projects/general-blockchain" exact component={GeneralBlockchain}/>
-
+                    <Route path ="/projects/quantum-computing" exact component={QuantumComputing}/>
 
                     <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>

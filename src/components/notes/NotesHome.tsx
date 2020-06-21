@@ -31,7 +31,6 @@ class NotesHome extends React.Component {
                             </p>
 
                         <br/>
-                        <br/>
 
                         <h1>Language Notes </h1>
                     <Card>
@@ -59,9 +58,9 @@ class NotesHome extends React.Component {
                         </p>
 
                     <ul>
-                        <li> Spanish <span className="badge badge-danger">7%</span></li>
+                        <li> Arabic (Modern Standard) <span className="badge badge-danger">5%</span></li>
+                        <li> Spanish <span className="badge badge-danger">0%</span></li>
                         <li> French <span className="badge badge-danger">0%</span></li>
-                        <li> Arabic <span className="badge badge-danger">0%</span></li>
                         <li> German <span className="badge badge-danger">0%</span></li>
                         <li> Italian <span className="badge badge-danger">0%</span></li>
                     </ul>
@@ -93,7 +92,7 @@ class NotesHome extends React.Component {
                                 <div className="alert alert-secondary">Under Construction</div>
                                 <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
                                 <div className="card-footer bg-transparent">
-                                    <a href="#/notes/french/french-contents" className="btn btn-primary btn-block"> Link
+                                    <a href="#/notes" className="btn btn-primary btn-block"> Link
                                         To French Section </a>
                                 </div>
                             </div>
@@ -107,7 +106,7 @@ class NotesHome extends React.Component {
                                 <div className="alert alert-secondary">Under Construction</div>
                                 <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
                                 <div className="card-footer bg-transparent">
-                                    <a href="#/notes/german/german-contents" className="btn btn-primary btn-block"> Link
+                                    <a href="#/notes" className="btn btn-primary btn-block"> Link
                                         To German Section </a>
                                 </div>
                             </div>
@@ -123,7 +122,7 @@ class NotesHome extends React.Component {
                                 <div className="alert alert-secondary">Under Construction</div>
                                 <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
                                 <div className="card-footer bg-transparent">
-                                    <a href="#/notes/spanish/spanish-contents" className="btn btn-primary btn-block"> Link
+                                    <a href="#/notes" className="btn btn-primary btn-block"> Link
                                         To Spanish Section </a>
                                 </div>
                             </div>
@@ -138,7 +137,7 @@ class NotesHome extends React.Component {
                                 <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
                                 <div className="card-footer bg-transparent">
                                     <Link to={"notes/italian"}/>
-                                    <a href="#/notes/italian/italian-contents" className="btn btn-primary btn-block"> Link
+                                    <a href="#/notes" className="btn btn-primary btn-block"> Link
                                         To Italian Section </a>
                                 </div>
                             </div>

@@ -88,13 +88,12 @@ class Home extends React.Component {
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image   src={require("../../img/mech_calculator.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}>Mechanics Calculator</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/stats_calculator.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}> Calculator </p>
+
                                         </div>
                                     </Col>
                                 </Row>
@@ -102,13 +101,13 @@ class Home extends React.Component {
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/ice_runner.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}>Ice Runner</p>
+
                                         </div>
                                     </Col>
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/impossible_cube.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}>Impossible Cube</p>
+
                                         </div>
                                     </Col>
                                 </Row>
@@ -116,13 +115,13 @@ class Home extends React.Component {
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/faded.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}>Faded</p>
+
                                         </div>
                                     </Col>
                                     <Col xs={6} md={4}>
                                         <div style={{backgroundColor:"white"}}>
                                             <Image src={require("../../img/tiny_universe.jpg")} thumbnail />
-                                            <p style={{textAlign:"center", height:"45px"}}> Tiny Universe</p>
+
                                         </div>
                                     </Col>
                                 </Row>
