@@ -22,6 +22,7 @@ import greeting_and_intro from "./components/notes/arabic/greeting_and_intro";
 import Footer from "./components/single_page_elements/Footer";
 import GeneralBlockchain from "./components/projects/GeneralBlockchain";
 import QuantumComputing from "./components/projects/QuantumComputing";
+import PearsonPDFMaker from "./components/projects/PearsonPDFMaker";
 
 class App extends Component {
     render() {
@@ -57,6 +58,7 @@ s
                     <Route path ="/projects/mechanics-app" exact component={MechanicsApp}/>
                     <Route path ="/projects/general-blockchain" exact component={GeneralBlockchain}/>
                     <Route path ="/projects/quantum-computing" exact component={QuantumComputing}/>
+                    <Route path ="/projects/pearson-pdf-maker" exact component={PearsonPDFMaker}/>
 
                     <Route path ="/contact" exact component={Contact}/>
                     <Route path ="*" component={PageNotFound}/>
