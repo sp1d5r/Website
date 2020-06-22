@@ -52,7 +52,7 @@ class Home extends React.Component {
                                         </p>
                                         <ul>
                                             <li> Instagram Automation (see below),</li>
-                                            <li> maintaining this website,</li>
+                                            <li> Maintaining this website,</li>
                                             <li> Personal assistant for school</li>
                                         </ul>
                                         <p> To see my other projects go to <a href={"https://www.doc.ic.ac.uk/~aa1719/#/projects"}><u> here </u></a>
@@ -66,7 +66,7 @@ class Home extends React.Component {
                                     <p className="card-text">
                                         <p> I have trained in martial arts for 15 years, studying Kickboxing, Muay Thai,
                                             and Taekwondo. Improving  my <strong>discipline, perserverance</strong> and
-                                            <strong>integrity</strong>.
+                                            <strong> integrity</strong>.
                                         </p>
                                         <p>
                                             I <strong> love </strong> learning, in particular I enjoy learning languages

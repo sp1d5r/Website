@@ -24,6 +24,8 @@ import GeneralBlockchain from "./components/projects/GeneralBlockchain";
 import QuantumComputing from "./components/projects/QuantumComputing";
 import PearsonPDFMaker from "./components/projects/PearsonPDFMaker";
 import ComputerSystemProjects from "./components/projects/ComputerSystemProjects";
+import SpanishContents from "./components/notes/Spanish/SpanishContents";
+import PronounsVerbsAndNouns from "./components/notes/Spanish/PronounsVerbsAndNouns";
 
 class App extends Component {
     render() {
@@ -52,6 +54,10 @@ class App extends Component {
                     <Route path ="/comparing-things" exact component={arabic_contents}/>
                     <Route path ="/education-and-business" exact component={arabic_contents}/>
                     <Route path ="/the-future" exact component={arabic_contents}/>
+
+                    <Route path="/notes/spanish/spanish-contents" exact component={SpanishContents}/>
+                    <Route path="/spanish/pronouns-verbs-and-nouns" exact component={PronounsVerbsAndNouns}/>
+
 
                     <Route path ="/projects" exact component={ProjectsHome}/>
 s

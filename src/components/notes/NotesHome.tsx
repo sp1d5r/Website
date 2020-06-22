@@ -85,6 +85,20 @@ class NotesHome extends React.Component {
                         </Card>
 
                         <Card>
+                            <Card.Img src={require("../../img/spanish.jpg")} width="100%"/>
+                            <div className="card-body">
+                                <h5 className="card-title">Spanish 🇪🇸</h5>
+                                <p className="card-text">A collection of my Spanish notes (2016-2017)</p>
+                                <div className="alert alert-secondary">Under Construction</div>
+                                <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
+                                <div className="card-footer bg-transparent">
+                                    <a href="#/notes/spanish/spanish-contents" className="btn btn-primary btn-block"> Link
+                                        To Spanish Section </a>
+                                </div>
+                            </div>
+                        </Card>
+
+                        <Card>
                             <Card.Img src={require("../../img/French.jpg")} width="100%"/>
                             <div className="card-body">
                                 <h5 className="card-title">French 🇫🇷 </h5>
@@ -98,6 +112,10 @@ class NotesHome extends React.Component {
                             </div>
                         </Card>
 
+
+                    </CardDeck>
+                    <br/>
+                    <CardDeck>
                         <Card>
                             <Card.Img src={require("../../img/German.jpg")} width="100%"/>
                             <div className="card-body">
@@ -108,22 +126,6 @@ class NotesHome extends React.Component {
                                 <div className="card-footer bg-transparent">
                                     <a href="#/notes" className="btn btn-primary btn-block"> Link
                                         To German Section </a>
-                                </div>
-                            </div>
-                        </Card>
-                    </CardDeck>
-                    <br/>
-                    <CardDeck>
-                        <Card>
-                            <Card.Img src={require("../../img/spanish.jpg")} width="100%"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Spanish 🇪🇸</h5>
-                                <p className="card-text">A collection of my Spanish notes (2016-2017)</p>
-                                <div className="alert alert-secondary">Under Construction</div>
-                                <p className="card-text"><small className="text-muted">Mar 24, 2020</small></p>
-                                <div className="card-footer bg-transparent">
-                                    <a href="#/notes" className="btn btn-primary btn-block"> Link
-                                        To Spanish Section </a>
                                 </div>
                             </div>
                         </Card>
