@@ -25,7 +25,8 @@ import QuantumComputing from "./components/projects/QuantumComputing";
 import PearsonPDFMaker from "./components/projects/PearsonPDFMaker";
 import ComputerSystemProjects from "./components/projects/ComputerSystemProjects";
 import SpanishContents from "./components/notes/Spanish/SpanishContents";
-import PronounsVerbsAndNouns from "./components/notes/Spanish/PronounsVerbsAndNouns";
+import PronounsVerbsAndNouns from "./components/notes/Spanish/Chapter 1 /PronounsVerbsAndNouns";
+import AdjectivesAndAbbreviations from "./components/notes/Spanish/Chapter 1 /AdjectivesAndAbbreviations";
 
 class App extends Component {
     render() {
@@ -57,6 +58,8 @@ class App extends Component {
 
                     <Route path="/notes/spanish/spanish-contents" exact component={SpanishContents}/>
                     <Route path="/spanish/pronouns-verbs-and-nouns" exact component={PronounsVerbsAndNouns}/>
+                    <Route path="/spanish/adjectives-and-abbreviations" exact component={AdjectivesAndAbbreviations}/>
+
 
 
                     <Route path ="/projects" exact component={ProjectsHome}/>

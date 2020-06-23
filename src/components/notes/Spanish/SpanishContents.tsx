@@ -29,7 +29,7 @@ class SpanishContents extends Component {
                     <li> Basics
                         <ul>
                             <li><a href={"#/spanish/pronouns-verbs-and-nouns"}>Pronouns, Verbs, and Nouns</a></li>
-                            <li>Adjcetives, and Gender</li>
+                            <li><a href={"#/spanish/adjectives-and-abbreviations"}>Adjectives + Abbreviations</a></li>
                         </ul>
                     </li>
                 </ol>
