@@ -42,7 +42,7 @@ class Header extends React.Component {
                                 <Nav.Link href="#/projects">Projects</Nav.Link>
                             </NavItem>
                             <NavItem className="w-25">
-                                <Nav.Link href="#/tutoring">Tutoring </Nav.Link>
+                                <Nav.Link href="#/websites">Websites </Nav.Link>
                             </NavItem>
                             <NavItem className="w-25">
                                 <Nav.Link href="#/contact">Contact</Nav.Link>

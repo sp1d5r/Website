@@ -27,6 +27,7 @@ import ComputerSystemProjects from "./components/projects/ComputerSystemProjects
 import SpanishContents from "./components/notes/Spanish/SpanishContents";
 import PronounsVerbsAndNouns from "./components/notes/Spanish/Chapter 1 /PronounsVerbsAndNouns";
 import AdjectivesAndAbbreviations from "./components/notes/Spanish/Chapter 1 /AdjectivesAndAbbreviations";
+import WebsitesHome from "./components/websites/WebsitesHome";
 
 class App extends Component {
     render() {
@@ -70,6 +71,8 @@ s
                     <Route path ="/projects/quantum-computing" exact component={QuantumComputing}/>
                     <Route path ="/projects/pearson-pdf-maker" exact component={PearsonPDFMaker}/>
                     <Route path ="/projects/computer-system-projects" exact component={ComputerSystemProjects}/>
+
+                    <Route path="/websites/" exact component={WebsitesHome}/>
 
 
                     <Route path ="/contact" exact component={Contact}/>

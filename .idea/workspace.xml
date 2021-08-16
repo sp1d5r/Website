@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf4dd6b-aa27-4d40-85f0-6d8f31dc8d70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/PageNotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/PageNotFound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +13,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XzfDBV0s8l75Qp5dnpi7yA5chV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -26,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/websites" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,16 +40,17 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/font" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/src/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/components/notes/Spanish/Chapter 1 " />
       <recent name="$PROJECT_DIR$/src/components/projects" />
       <recent name="$PROJECT_DIR$/src/img/ComputerSystemImages" />
-      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/websites" />
+      <recent name="$PROJECT_DIR$/src/font" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/src/css" />
     </key>
   </component>
@@ -104,7 +107,10 @@
       <workItem from="1589659245206" duration="1132000" />
       <workItem from="1592646378115" duration="22701000" />
       <workItem from="1592840318896" duration="6398000" />
-      <workItem from="1593454387410" duration="36000" />
+      <workItem from="1593454387410" duration="586000" />
+      <workItem from="1597236765824" duration="1042000" />
+      <workItem from="1597482152458" duration="1257000" />
+      <workItem from="1629126784261" duration="2788000" />
     </task>
     <servers />
   </component>
@@ -112,37 +118,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="190" key="#Compass" timestamp="1592648383861">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="440" y="190" key="#Compass/0.0.1680.1050@0.0.1680.1050" timestamp="1592648383861" />
-    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588366283038">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588366283038" />
-    <state width="1659" height="275" key="GridCell.Tab.0.bottom" timestamp="1592843593441">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585833408312" />
-    <state width="1659" height="275" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1592843593441" />
-    <state width="1659" height="275" key="GridCell.Tab.0.center" timestamp="1592843593440">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585833408311" />
-    <state width="1659" height="275" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1592843593440" />
-    <state width="1659" height="275" key="GridCell.Tab.0.left" timestamp="1592843593438">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585833408310" />
-    <state width="1659" height="275" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1592843593438" />
-    <state width="1659" height="275" key="GridCell.Tab.0.right" timestamp="1592843593441">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585833408312" />
-    <state width="1659" height="275" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1592843593441" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585153395613">
+    <state width="1419" height="225" key="GridCell.Tab.0.bottom" timestamp="1629126958307">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585153395613" />
+    <state width="1419" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629126958307" />
+    <state width="1419" height="225" key="GridCell.Tab.0.center" timestamp="1629126958306">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="225" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629126958306" />
+    <state width="1419" height="225" key="GridCell.Tab.0.left" timestamp="1629126958305">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="225" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629126958305" />
+    <state width="1419" height="225" key="GridCell.Tab.0.right" timestamp="1629126958306">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="225" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629126958306" />
+    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629126785774">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1629126785774" />
   </component>
 </project>
