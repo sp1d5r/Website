@@ -138,6 +138,25 @@ class WebsitesHome extends React.Component {
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div className="card border-secondary">
+                                        <img src={require("../../img/websites5.jpg")} className="card-img-top" alt="..." />
+                                        <div className="card-body">
+                                            <h5 className="card-title">Feeling Fine</h5>
+                                            <p className="card-text">
+                                                A webpage that allows you to get the emotions out of an audio clip.
+                                            </p>
+                                            <div className="alert alert-success">Published / Local</div>
+                                            <p className="card-text"><small className="text-muted"> Jan 20, 2020</small>
+                                            </p>
+                                            <div className="card-footer bg-transparent">
+                                                <a href="https://feeling-fine.herokuapp.com"
+                                                   className="btn btn-primary btn-block"> Feeling Fine</a>
+                                                <a href="https://github.com/sp1d5r/FeelingFine"
+                                                   className="btn btn-primary btn-block"> Link to Source code</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                 </Container>
 
