@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf4dd6b-aa27-4d40-85f0-6d8f31dc8d70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/websites/WebsitesHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/websites/WebsitesHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/single_page_elements/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/websites" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,17 +39,18 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/components/websites" />
+      <recent name="$PROJECT_DIR$/src/font" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/src/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/components/notes/Spanish/Chapter 1 " />
       <recent name="$PROJECT_DIR$/src/components/projects" />
       <recent name="$PROJECT_DIR$/src/img/ComputerSystemImages" />
-      <recent name="$PROJECT_DIR$/src/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/websites" />
-      <recent name="$PROJECT_DIR$/src/font" />
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/src/css" />
     </key>
   </component>
@@ -109,7 +110,8 @@
       <workItem from="1593454387410" duration="586000" />
       <workItem from="1597236765824" duration="1042000" />
       <workItem from="1597482152458" duration="1257000" />
-      <workItem from="1629126784261" duration="3938000" />
+      <workItem from="1629126784261" duration="4365000" />
+      <workItem from="1633869209156" duration="1935000" />
     </task>
     <servers />
   </component>
@@ -117,22 +119,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="343" key="GridCell.Tab.0.bottom" timestamp="1629129740556">
+    <state width="1419" height="343" key="GridCell.Tab.0.bottom" timestamp="1629473985134">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629129740556" />
-    <state width="1419" height="343" key="GridCell.Tab.0.center" timestamp="1629129740553">
+    <state width="1419" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629473985134" />
+    <state width="1419" height="343" key="GridCell.Tab.0.center" timestamp="1629473985132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629129740553" />
-    <state width="1419" height="343" key="GridCell.Tab.0.left" timestamp="1629129740551">
+    <state width="1419" height="343" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629473985132" />
+    <state width="1419" height="343" key="GridCell.Tab.0.left" timestamp="1629473985131">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629129740551" />
-    <state width="1419" height="343" key="GridCell.Tab.0.right" timestamp="1629129740555">
+    <state width="1419" height="343" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629473985131" />
+    <state width="1419" height="343" key="GridCell.Tab.0.right" timestamp="1629473985133">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629129740555" />
+    <state width="1419" height="343" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629473985133" />
     <state x="502" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629126785774">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -13,7 +13,7 @@ class Home extends React.Component {
                     <Image src={require("../../img/landing3.jpg")} fluid />
                     <div className="card-body bg-white text-center text-dark mb-3 navgrad">
                         <h3 className="card-title h3 my-4 "><strong>Elijah Ahmad</strong></h3>
-                        <p className="card-text py-0">A first year computer science student studying at</p>
+                        <p className="card-text py-0">A third year computer science student studying at</p>
                         <p className="card-text py-0">Imperial College London </p>
                         <p className="alert-danger"><strong>
                             This website is under development. </strong>
@@ -29,7 +29,7 @@ class Home extends React.Component {
                                 <div className="card-body">
                                     <h5 className="card-title">Education </h5>
                                     <p className="card-text">
-                                        <p><strong>Hello!</strong> I am Elijah (Al-Maz) Ahmad, I am a first year
+                                        <p><strong>Hello!</strong> I am Elijah (Al-Maz) Ahmad, I am a third year
                                             Computer Science studying at Imperial College London. I left School with
                                         </p>
                                         <ul>
@@ -203,6 +203,50 @@ class Home extends React.Component {
                             <div>
                                 <p>
                                     <Image src={require("../../img/instagramPhoto.png")} fluid />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className={"card-deck"}>
+                        <div className="card bg-transparent border-0">
+                            <div>
+                                <p>
+                                    <Image src={require("../../img/mockup.png")} fluid />
+                                </p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Pegasus Education </h5>
+                                <p className="card-text">
+                                    <p> Education is free. But it doesn't mean it's fair. Growing up without any educated
+                                        parents, showed me how hard it can be learning without proper guidance. My
+                                        teachers were great but I wanted to be the best in the country, which isn't really
+                                        an option at low budget public schools.
+                                    </p>
+
+                                    <p>
+                                        That's where pegasus comes into play. It uses spaced repetition and my own Artificial
+                                        Intelligence software to predict when students will forget topics and reminds them.
+                                        It is a technique used by Anki.
+                                    </p>
+
+                                    <p>
+                                        I've been working on this for the last 2 years but balancing school, work and this
+                                        has been next to impossible. So that's the situation. If you wanna check out the website
+                                        <a href={"https://pegasus-education.herokuapp.com"}> Pegasus Education </a>
+                                    </p>
+
+                                    <p>
+                                        The app will be funded on advertisements and 50% of all proceeds will be sent to
+                                        CoachBright. The other 50% will be kept for course creation. The app is built on
+                                        react-native and the source code will be released soon.
+                                    </p>
+
+                                    <p>
+                                        Free education for everyone. Forever.
+                                    </p>
                                 </p>
                             </div>
                         </div>
